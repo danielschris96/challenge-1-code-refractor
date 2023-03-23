@@ -54,12 +54,13 @@ p {
     font-size: 16px;
 }
 
+/* changed background-size: cover; to object-fit: cover;
+removed image link and inserted into html file*/
 .hero {
     height: 800px;
+    object-fit: cover;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
+    margin-bottom: 21px;
     background-position: center;
 }
 
@@ -138,7 +139,7 @@ p {
     max-width: 150px;
 }
 
-/* changed .search-engine-optimizationto #search-engine-optimization  */
+/* changed all .search-engine-optimization to #search-engine-optimization  */
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -166,7 +167,7 @@ p {
     color: #ffffff;
 }
 
-/* changed .search-engine-optimizationto #search-engine-optimization  */
+
 #search-engine-optimization img {
     max-height: 200px;
 }
@@ -179,7 +180,7 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+#search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
