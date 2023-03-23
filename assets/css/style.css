@@ -22,7 +22,8 @@ header h1 {
 }
 
 /* removed header h1 specificity from seo class */
-.seo {
+/* changed class "seo" to "header-seo" */
+.header-seo {
     color: #d9dcd6;
 }
 
@@ -80,8 +81,8 @@ removed image link and inserted into html file*/
     margin-left: 20px;
 }
 
-/* changed class="benefits" to "benefit-aside" */
-.benefit-aside {
+/* changed class="benefits" to "aside-benefit" */
+.aside-benefit {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -92,18 +93,18 @@ removed image link and inserted into html file*/
     background-color: #2589bd;
 }
 
-/* consolidated section classes into "benefit" */
-.benefit {
+/* consolidated section classes into "section-benefit" */
+.section-benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit h3 {
+.section-benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+.section-benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
