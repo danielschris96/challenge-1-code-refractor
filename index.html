@@ -10,25 +10,21 @@
 </head>
 
 <body>
-    <div class="header">
+    <!-- changed <div> into <header> to rid of "header" class -->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!-- deleted <div> surrounding <ul> -->
+        <!-- removed spacing between <li> and <a> -->
             <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
+                <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
+                <li><a href="#online-reputation-management">Online Reputation Management</a></li>
+                <li><a href="#social-media-marketing">Social Media Marketing</a></li>
             </ul>
-        </div>
-    </div>
+    </header>
     <div class="hero"></div>
     <div class="content">
-        <div class="search-engine-optimization">
+        <!-- fixed search engine optimization from class to id to fix link -->
+        <div id="search-engine-optimization">
             <!-- added alt text for image -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A figure linking content, headings, mobile compatibility, social media, link building, and backlink to search engine optimization."/>
             <h2>Search Engine Optimization</h2>
